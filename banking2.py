@@ -42,11 +42,6 @@ class Bank(User):
         self.details()
         print(f"Account Balance is ${self.balance}")
 
-tre = Bank("Tra'Devian LaCartier Miller", 23, "Male")
+Tre = Bank("Tra'Devian LaCartier Miller III", 23, "Male")
 
-tre.deposit(200)
-tre.deposit(300)
-tre.deposit(500)
-tre.withdraw(62)
-tre.withdraw(562)
-tre.view_balance()
+User.details(Tre)
